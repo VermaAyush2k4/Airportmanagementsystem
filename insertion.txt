@@ -1,0 +1,31 @@
+insert into Pilot values
+("PL003", "Theo", "1957-02-01", "M", NULL, 7663655453);
+
+insert into Staff values
+("ST003", "Perk", "1976-05-21", "M", NULL, 533345334);
+
+insert into Passenger values
+("PS003", "Tushar", "2001-02-01", "M", NULL, 3433433412);
+
+insert into Flight values
+("FL003", "PL001", "ST003", "PS003", "Singapore", "San Francisco", "00:30:00", "06:00:00");
+
+insert into Ticket values
+("TK003", "PS003", "FirstClass");
+
+insert into Terminal values
+("T2", "TK003", "23:00:00");
+
+
+
+insert into Passenger values
+("PS004", "Kishore", "2002-02-05", "M", NULL, 3433433420);
+
+insert into Flight values
+("FL003", "PL001", "ST003", "PS003", "Singapore", "San Francisco", "00:30:00", "06:00:00");
+
+insert into Ticket values
+("TK003", "PS003", "FirstClass");
+
+insert into Terminal values
+("T2", "TK003", "23:00:00");
